@@ -1,0 +1,29 @@
+{
+    "name": "luyadev/luya-headless-cms-kickstarter",
+    "description": "The kickstarter project for a new LUYA application.",
+    "type": "luya-kickstarter",
+    "license":"MIT",
+    "require": {
+        "luyadev/luya-core" : "^1.0",
+        "luyadev/luya-module-admin" : "^3.0",
+        "luyadev/luya-module-cms" : "^3.0",
+        "luyadev/luya-headless-cms-api": "dev-master"
+
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii" : "^2.0",
+        "yiisoft/yii2-debug" : "^2.0",
+        "luyadev/luya-testsuite" : "^2.0"
+    },
+    "config": {
+        "fxp-asset": {
+            "enabled": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

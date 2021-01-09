@@ -1,0 +1,6 @@
+/vendor
+/runtime
+/public_html/assets
+/public_html/storage
+configs/env.php
+luya
